@@ -30,5 +30,5 @@ build:
   - HUGO_ENV=production
   - HUGO_VERSION=0.53
   preview_output_directory: public
-  output_directory: public
+  output_directory: hugo/public
 version: '0.53'
