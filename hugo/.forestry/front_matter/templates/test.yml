@@ -1,0 +1,14 @@
+---
+label: test
+hide_body: false
+fields:
+- type: field_group
+  name: test
+  label: test
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    label: title
+    name: title
