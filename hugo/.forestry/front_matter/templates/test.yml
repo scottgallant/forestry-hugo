@@ -22,3 +22,5 @@ fields:
     display_utc: 
   label: Now date
   default: now
+pages:
+- hugo/content/_index.md
