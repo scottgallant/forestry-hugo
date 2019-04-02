@@ -6,12 +6,22 @@ fields:
   name: test
   label: test
   fields:
-  - type: file
-    name: image
-    label: image
+  - name: sub_sub_group
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    label: Sub sub group
   - type: text
     label: title
     name: title
+  - type: file
+    name: image
+    label: image
 - name: now_date
   type: datetime
   description: ''
